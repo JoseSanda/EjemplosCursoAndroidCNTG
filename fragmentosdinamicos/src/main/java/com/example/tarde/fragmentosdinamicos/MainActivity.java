@@ -16,8 +16,9 @@ public class MainActivity extends ActionBarActivity {
 
         FragmentTransaction tx = getFragmentManager().beginTransaction();
 
-        tx.add(R.id.contenedor,new BuscadorFragment());
+        tx.add(R.id.contenedor, new BuscadorFragment());
 
         tx.commit();
+
     }
 }

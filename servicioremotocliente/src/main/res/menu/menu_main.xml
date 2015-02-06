@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_bind_service" android:title="Enlazar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_saludo_service" android:title="Saludar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_bind_servicio_saludador" android:title="Enlazar AIDL"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_saludar_servicio_saludador" android:title="Saludar AIDL"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
