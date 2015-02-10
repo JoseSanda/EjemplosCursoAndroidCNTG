@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContentProvider</string>
+    <integer name="DataBaseVersion">1</integer>
+</resources>

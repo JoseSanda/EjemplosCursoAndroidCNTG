@@ -53,7 +53,6 @@ public class PeliculasAdapter extends BaseAdapter {
             peliculaViewHelper = new PeliculaViewHelper();
 
             peliculaViewHelper.actores = (TextView) convertView.findViewById(R.id.actores);
-            //FIXME no encuentra R.id.anno
             peliculaViewHelper.año = (TextView) convertView.findViewById(R.id.anno);
             peliculaViewHelper.titulo = (TextView) convertView.findViewById(R.id.titulo);
 
